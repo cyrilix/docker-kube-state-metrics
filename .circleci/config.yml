@@ -4,6 +4,9 @@ jobs:
     working_directory: ~/src
     docker:
       - image: docker:18.09-git
+    dependencies:
+      pre:
+        - sudo apt-get install make
     steps:
       - checkout
       - setup_remote_docker
