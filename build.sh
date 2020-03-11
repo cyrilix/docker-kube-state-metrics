@@ -1,8 +1,8 @@
 #! /bin/bash
 
 IMG_NAME=cyrilix/kube-state-metrics
-VERSION=1.8.0
-MAJOR_VERSION=1.8
+VERSION=1.9.4
+MAJOR_VERSION=1.9
 export DOCKER_CLI_EXPERIMENTAL=enabled
 export DOCKER_USERNAME=cyrilix
 
